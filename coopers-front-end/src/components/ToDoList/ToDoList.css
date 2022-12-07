@@ -482,6 +482,9 @@ width: 40px;
         font-size: 60px;
     }
 
+    .main .good-things .cards .card{
+        width: 70%;
+    }
 
     .main .good-things .cards .card-top .logo{
         top: -35px;
@@ -536,6 +539,10 @@ width: 40px;
 
         .main .lists .coluns .colunm{
             width: 40%;
+        }
+
+        .main .good-things .cards .card{
+            width: 60%;
         }
     }
 

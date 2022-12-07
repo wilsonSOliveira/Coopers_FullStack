@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Poppins:wght@600;700&display=swap');
+
+.header {
+    width: 100vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column
+}
+
+.header .top {
+    height: 105vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column
+}
+
+.header .top-box {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 3%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    align-items: center
+}
+
+.header .top-box .logo {
+    height: 100%;
+    width: 150px;
+    display: flex;
+    gap: 7%;
+    align-items: flex-end;
+    position: relative;
+    left: 10px;
+}
+
+.header .top-box .logo h1 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+
+}
+
+.header .top-box .logo img {
+    width: 20%;
+    height: 100%
+}
+
+.header .top-box .button  {
+    position: relative;
+    right: 7%;
+    width: 50%;
+    text-align: right;
+    height: 100%
+}
+
+.header .top-box .button  button {
+    height:calc(100% - 10px);
+    width: 40%;
+    background: #000000;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size:14px;
+    border: none;
+
+}
+
+.header .columns{
+height: calc(80% - 30px);
+width: 100%;
+display: flex;
+align-items: center;
+
+}
+
+.header .column-right {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    top: 2.62%;
+    bottom: 80.33%;
+    z-index: 1;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .column-right #logo {
+    position: absolute;
+    width: 100%;
+    height: 150%;
+
+}
+
+.header .column-right #living-room {
+    position: relative;
+    width: 80%;
+    height: auto;
+}
+
+.header .column-left {
+    width: 50%;
+    height: 50%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 10px;
+    justify-content:center;
+    padding: 3px
+}
+
+
+.header .column-left .title h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 0;
+}
+
+.header .column-left .title h2 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #4AC959;
+}
+
+.header .column-left .sub-title {
+    height: 20%;
+}
+
+.header .column-left .sub-title h4 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    font-size: 10px;
+}
+
+.header .column-left .button {
+    position: relative;
+    top: 0%;
+    width: 80%;
+    height: 30px;
+}
+
+.header .column-left .button button {
+    width: 100%;
+    height: 35px;
+    background: #4AC959;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+}
+
+.header .arrow {
+    position: absolute;
+    left: 50%;
+    right: 47.22%;
+    top: 92.85%;
+    bottom: 82.12%;
+}
+
+.header .arrow img {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.header .bottom {
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transform: translate(0,-15%);
+
+}
+
+.header .bottom .rectangle {
+    width: calc(100% + 50px);
+    height: 70%;
+    border: solid;
+    transform: rotate(-4deg) ;
+    background: #000000;
+    position: absolute;
+    z-index: -999;
+    display: flex;;
+}
+
+.header .bottom .text {
+    color: #FFFFFF;
+    width: 90%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+
+.header .bottom .text .title {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column-reverse
+}
+
+.header .bottom .text .title::before {
+    content: "";
+    background: #4AC959;
+    width: 100%;
+    height: 3px;
+}
+
+.header .bottom .text h4 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+}  
+
+@media (max-width:300px){
+    .header .column-left .title h1{
+        font-size: 20px;
+    }
+
+    .header .column-left .title h2{
+        font-size: 16px;
+    }
+
+    .header .column-left .sub-title h4{
+        line-height: 12px;
+    }
+}
+
+@media (min-width:550px) {
+
+    .header .top-box .logo h1 {
+        font-size: 40px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0;
+    }
+
+    .header .top-box .logo img {
+        width: 20%;
+        height: 100%
+    }
+
+    .header .column-right #living-room{
+        width: 71%;
+        height: 50%;
+
+    }
+
+    .header .column-left .title h1{
+        font-size: 55px;
+        line-height: 70px;
+  
+    }
+
+    .header .column-left .title h2{
+        font-size: 35px;
+    }
+
+    .header .column-left .sub-title h4 {
+        line-height: 30px;
+        font-size: 20px;
+    }
+
+    .header .bottom .text .title{
+        font-size: 50px;
+    }
+
+    .header .bottom .text h4{
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .header .column-left .button button{
+        height: 60px;
+        font-size: 25px;
+    }
+}
+
+@media (min-width:800px) {
+    .header .top{
+        padding: 0 20px;
+    }
+
+    .header .top-box .button button{
+        width: 30%;
+        font-size: 20px;
+    }
+
+    .header .column-right #living-room{
+        width: 71%;
+        height: 61%;
+    
+    }
+
+    .header .bottom .rectangle{
+        transform: rotate(-3.6deg)
+    }
+    .header .bottom .text{
+        width: 65%;
+    }
+}
+
+@media (min-width:1100px) {
+    .header .top-box .button button{
+        width: 20%;
+    }
+}

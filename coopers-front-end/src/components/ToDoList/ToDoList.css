@@ -1,0 +1,542 @@
+.main {
+    width: 100vw;
+    height: auto;
+}
+
+.lists {
+    width: 100%;
+    height: auto;
+}
+
+.main .lists .rectangle {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 177%;
+    left: -241px;
+    overflow: hidden;
+}
+
+
+.main .lists .straight {
+    height: 150%;
+    width: 30%;
+    background: linear-gradient(0deg, #4AC959, #4AC959), #000000;
+    rotate: 159deg;
+    position: absolute;
+    left: 173px;
+    z-index: 1;
+}
+
+.main .lists .sub-rectangle {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    right: 23px;
+    bottom: 15px;
+    overflow: hidden;
+}
+
+.main .lists .sub-straight {
+    height: 150%;
+    width: 30%;
+    background: linear-gradient(0deg, #49AF55, #49AF55), #000000;
+    rotate: 159deg;
+    position: absolute;
+    left: 173px;
+    z-index: 2;
+}
+
+.main .lists .coluns {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px
+}
+
+
+.main .lists .coluns .colunm {
+    width: 60%;
+    border-top: 20px solid;
+    box-shadow: 0px 4px 12px rgba(66, 66, 66, 0.198454);
+    padding-bottom: 20px;
+}
+
+
+.main .lists .coluns .to-do {
+    border-top-color: #E88D39;
+}
+
+.main .lists .coluns .title {
+    text-align: center;
+}
+
+.main .lists .coluns .title h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 20px;
+    margin: 10%;
+}
+
+
+.main .lists .coluns .title h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.main .lists .coluns .tasks {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: stretch;
+}
+
+
+
+.main .lists .coluns .tasks img{
+    height: 20px;
+}
+
+.main .lists .coluns .tasks .task {
+    padding: 10px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+gap:20px;
+align-items: center;
+
+}
+
+ .main .lists .coluns .input-false{
+    display: none;
+}
+.main .lists .coluns .input-true{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px
+}
+
+.main .lists .coluns .input-true input{
+    width: 80%;
+    height: 20px;
+    border: 1px solid #06152B;
+    border-radius: 4px
+}
+
+.main .lists .coluns .input-true button{
+    background: #4AC959;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    height: 25px;
+
+}
+.main .lists .coluns .button-erase {
+    text-align: center;
+    width: 100%;
+}
+
+.main .lists .coluns .button-erase button {
+    width: 70%;
+    height: 40px;
+    background: #000000;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 14px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.main .lists .coluns .done {
+    border-top-color: #4AC959
+}
+
+.main .good-things {
+    width: 100vw;
+    height: 600px;
+}
+
+
+.main .good-things .rectangle {
+    width: 80%;
+    height: 80%;
+    position: relative;
+    top: 9%;
+    left: 4%;
+    background-color: #4AC959;
+}
+
+.main .good-things .rectangle .title {
+    position: relative;
+    top: 10%;
+    left: 10%;
+}
+
+.main .good-things .rectangle .title h1 {
+    color: #FFFFFF;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 110%;
+}
+
+.main .good-things .cards {
+    height: 90%;
+    width: 100%;
+    position: relative;
+    top: 25%;
+    left: 10%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: -webkit-inline-box;
+    gap: 20px;
+    padding-bottom: 5px;
+}
+
+.main .good-things .cards .card {
+    width: 80%;
+    height: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgb(66 66 66 / 20%);
+    border-radius: 16px;
+}
+
+.main .good-things .cards .card-top{
+    height: 50%;
+}
+
+.main .good-things .cards .card-top img {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px 16px 0 0;
+}
+
+.main .good-things .cards .card-top .logo {
+    position: relative;
+    top: -25px;
+    left: 80%;
+    display: inline;
+}
+
+.main .good-things .cards .card-top .logo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 0;
+}
+
+.main .good-things .cards .card-botton{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+
+.main .good-things .cards .card .text {
+    position: relative;
+    bottom: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 10px 0px 10px;
+    height: 100px;
+    gap: 7px;
+}
+
+.main .good-things .cards .card .text h4 {
+    margin: 0;
+    border: 1px solid;
+    font-family: 'Soleil', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #9499B3;
+    padding: 2px 6px;
+    border-radius: 10px;
+}
+
+.main .good-things .cards .card .text p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 120%;
+    color: #312F4F;
+    margin-top: 10px;
+}
+
+.main .good-things .cards .card .read-more {
+    font-family: 'Soleil', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #42D76B;
+    cursor: pointer;
+    display: inline;
+    position: relative;
+    bottom: -6%;
+    margin-left: 7%;
+    
+}
+
+
+.main .contact {
+    margin: 300px 0 200px 0;
+}
+
+.main .contact .rectangle-top {
+    width: 50%;
+    height: 30%;
+    position: relative;
+    left: 25%;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main .contact .rectangle-top img {
+    width: 30vw;
+    border-radius: 50%;
+    z-index: 2;
+
+}
+
+.main .contact .rectangle-top .row {
+    content: "";
+    width: 50%;
+    height: 10%;
+    position: absolute;
+    left: -5%;
+    background: #46BD62;
+}
+
+
+
+.main .contact .rectangle-botton {
+    width: 80%;
+    position: relative;
+    left: 10%;
+    bottom: 16%;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(6, 21, 43, 0.08);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main .contact .rectangle-botton .title {
+    width: 50%;
+    height: 10%;
+    position: relative;
+    margin-top: 17%;
+    margin-left: 5%;
+    display: flex;
+    gap: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.main .contact .rectangle-botton .title .square {
+    width: 84px;
+    background: #42D76B;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.main .contact .rectangle-botton .message-box {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.main .contact .rectangle-botton .message-box .box {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.main .contact .rectangle-botton .message-box .two-boxes {
+    width: 90%;
+    display: flex;
+}
+
+.main .contact .rectangle-botton .message-box .two-boxes #phone{
+    position: relative;
+    left: 10%;
+}
+.main .contact .rectangle-botton .message-box .box h6 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #06152B;
+    margin: 0;
+}
+
+.main .contact .rectangle-botton .message-box .box input {
+    width: 100%;
+    height: 25px;
+    border: 1px solid #06152B;
+    border-radius: 4px
+}
+
+.main .contact .rectangle-botton .message-box .two-boxes input {
+    width: 80%;
+    gap:10%
+}
+
+.main .contact .rectangle-botton .message-box .box textarea {
+    width: 100%;
+    height: 90px;
+    border: 1px solid #06152B;
+    border-radius: 4px
+}
+
+.main .contact .rectangle-botton .message-box .box button {
+    height: 35px;
+    background: #4AC959;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    margin: 5% 0;
+}
+
+@media (max-width:300px){
+    .main .good-things .cards .card .text p{
+        font-size: 14px;
+    }
+}
+
+@media (min-width:700px){
+    .main .lists .coluns .title h1{
+        font-size: 50px;
+    }
+
+    .main .lists .coluns .title h3{
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .main .lists .coluns .button-erase button{
+        height: 60px;
+        font-size:25px
+    }
+
+    .main .lists .coluns .input-true input{
+height: 40px;
+font-size: 20px;
+    }
+
+    .main .lists .coluns .input-true button{
+height: 40px;
+width: 40px;
+    }
+
+    .main .good-things .rectangle .title h1{
+        font-size: 60px;
+    }
+
+
+    .main .good-things .cards .card-top .logo{
+        top: -35px;
+    }
+
+    .main .good-things .cards .card-top .logo img{
+        width: 60px;
+        height: 60px;;
+    }
+
+    .main .good-things .cards .card .text h4{
+        font-size: 20px;
+    }
+
+    .main .good-things .cards .card .text p{
+        font-size: 30px;
+    }
+
+    .main .good-things .cards .card .read-more{
+        font-size: 30px;
+    }
+
+    .main .contact .rectangle-botton .title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .main .contact .rectangle-botton .message-box .box h6{
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .main .contact .rectangle-botton .message-box .box input{
+        height: 30px;
+    }
+
+    .main .contact .rectangle-botton .message-box .box textarea{
+        height: 100px;
+    }
+
+    .main .contact .rectangle-botton .message-box .box button{
+        height: 50px;
+        font-size: 25px;
+    }
+
+    @media (min-width:900px){
+        .main .lists .coluns{
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: space-evenly;
+        }
+
+        .main .lists .coluns .colunm{
+            width: 40%;
+        }
+    }
+
+}

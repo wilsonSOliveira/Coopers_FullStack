@@ -1,0 +1,1 @@
+export const AUTHORIZATION = localStorage.getItem('CoppersToken').replace()

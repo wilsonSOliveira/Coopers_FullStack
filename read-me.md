@@ -8,13 +8,13 @@ Projeto Coopers Full-stack
 O Projeto Projeto Coopers foi desenvolvido como um teste para o cargo de programador Full-Stack jr. para a empresa Coopers, o qual consiste na elaboração de um projeto full-stack que exibie Uma lista ta tarefas feitas e não feitas (to_do) na qual o usuarioa deve realizar um cadastro e ter acesso a suas informações atravez de login.
 
 
-O projeto pode ser acessado clicando aqui [aqui](http://ec2-54-162-191-44.compute-1.amazonaws.com:3000/).
+O projeto pode ser acessado clicando  [aqui](http://ec2-54-162-191-44.compute-1.amazonaws.com:3000/).
 
-O back-end pode ser acessado clicando aqui  [aqui](http://ec2-54-162-191-44.compute-1.amazonaws.com:3003/)
+O back-end pode ser acessado clicando  [aqui](http://ec2-54-162-191-44.compute-1.amazonaws.com:3003/)
 
-A documentação da API pode ser acessada clicando aqui [aqui](https://documenter.getpostman.com/view/21555870/2s8YzP3kMK)
+A documentação da API pode ser acessada clicando  [aqui](https://documenter.getpostman.com/view/21555870/2s8YzP3kMK)
 
-o wareframe pode ser acessado clicando aqui  [aqui](https://www.figma.com/file/OAMrciHo0uOf4H2cgg3MDm/Coopers---Site-para-teste-Front-End-%2F-Full-Stack?node-id=290%3A6333)
+o wareframe pode ser acessado clicando  [aqui](https://www.figma.com/file/OAMrciHo0uOf4H2cgg3MDm/Coopers---Site-para-teste-Front-End-%2F-Full-Stack?node-id=290%3A6333)
 
 
 
